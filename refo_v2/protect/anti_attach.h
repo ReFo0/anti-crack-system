@@ -13,9 +13,9 @@ struct FUNC {
 };
 
 FUNC funcList[] = {
-	{ "DbgBreakPoint", 0, DbgBreakPoint_FUNC_SIZE },
-	{ "DbgUiRemoteBreakin", 0, DbgUiRemoteBreakin_FUNC_SIZE },
-	{ "NtContinue", 0, NtContinue_FUNC_SIZE }
+	{ _xor_("DbgBreakPoint").c_str(), 0, DbgBreakPoint_FUNC_SIZE },
+	{ _xor_("DbgUiRemoteBreakin").c_str(), 0, DbgUiRemoteBreakin_FUNC_SIZE },
+	{ _xor_("NtContinue").c_str(), 0, NtContinue_FUNC_SIZE }
 };
 
 
@@ -34,7 +34,7 @@ int AntiAttach() {
 
 		bool result = false;
 		auto base_address = GetModuleHandleA(0);
-		if (wcsstr((WCHAR*)base_address, L"ntdll") || wcsstr((WCHAR*)base_address, L"NTDLL")) {
+		if (wcsstr((WCHAR*)base_address, _xor_(L"ntdll").c_str()) || wcsstr((WCHAR*)base_address, _xor_(L"NTDLL").c_str())) {
 			for (int i = 0; i < _countof(funcList); ++i) {
 				DWORD dwOldProtect;
 
