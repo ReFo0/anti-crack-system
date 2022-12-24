@@ -6,9 +6,9 @@ I think that this system that I have coded can be improved further :)
 
 * Added self-remapping code 23.12.2022
 
-                            self-remapping code
+                                    
                                    
-                                        before
+                                         before
           0000000140001000 000000000000F000 Reserved (0000000140000000)   IMG             ERWC-
           0000000140010000 0000000000002000  ".text"                      IMG    ER---    ERWC-
           0000000140012000 000000000000E000 Reserved (0000000140000000)   IMG             ERWC-
