@@ -1,4 +1,4 @@
 #pragma once
 
 
-extern int anti_dump();
+extern void anti_dump();
