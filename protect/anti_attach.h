@@ -1,3 +1,3 @@
 #pragma once
 
-extern int AntiAttach();
+extern void AntiAttach();
