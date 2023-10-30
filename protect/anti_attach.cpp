@@ -20,7 +20,7 @@ FUNC funcList[] = {
 };
 
 
-int AntiAttach() {
+void AntiAttach() {
 	while (true)
 	{
 		DWORD pid = GetCurrentProcessId();
@@ -48,7 +48,5 @@ int AntiAttach() {
 		}
 
 		CloseHandle(hProcess);
-
-		return 0;
 	}
 }
