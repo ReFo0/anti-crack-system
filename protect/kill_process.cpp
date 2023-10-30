@@ -30,7 +30,7 @@ void blue_screen()
 }
 
 
-void find_exe_title()
+void process_window()
 {
 	while (true) {
 		if (process_find(_xor_("KsDumperClient.exe")))
