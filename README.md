@@ -8,7 +8,7 @@ I think that this system that I have coded can be improved further :)
 
 * Added a project that reads node server side IP address and computer name
 
-* https://github.com/ReFo0/node-ip-country-server
+* ![Repo]( https://github.com/ReFo0/node-ip-country-server)
 
 ![image](https://github.com/ReFo0/anti-crack-system/assets/77904942/be7caaf0-3e14-4582-b9ae-845b2f06fb8f)
 
