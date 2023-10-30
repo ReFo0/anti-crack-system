@@ -9,7 +9,7 @@ void mainprotect() {
 	std::thread(contextthread).detach();
 	std::thread(debugstring).detach();
 	std::thread(kill_process).detach();
-	std::thread(find_exe_title).detach();
+	std::thread(process_window).detach();
 }
 
 
