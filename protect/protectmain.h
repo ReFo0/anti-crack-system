@@ -8,6 +8,6 @@
 #include "../encryption/xor.h"
 
  
-void mainprotect(); 
+extern void mainprotect(); 
 
 
