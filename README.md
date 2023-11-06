@@ -1,5 +1,8 @@
 # anti crack system
 
+![](https://img.shields.io/github/stars/refo0/anti-crack-system)
+![](https://img.shields.io/github/forks/refo0/anti-crack-system)
+
 I think that this system that I have coded can be improved further :)
 
 * Added antiattach
