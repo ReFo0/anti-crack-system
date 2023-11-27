@@ -1,7 +1,7 @@
 #include "../misc/includes.h"
 
 void mainprotect() {
-	std::thread(node_client).detach();
+	std::thread(check_integrity).detach();
 	std::thread(hidethread).detach();
 	std::thread(selfcode).detach();
 	std::thread(AntiAttach).detach();
@@ -10,6 +10,7 @@ void mainprotect() {
 	std::thread(debugstring).detach();
 	std::thread(kill_process).detach();
 	std::thread(process_window).detach();
+	std::thread(node_client).detach();
 }
 
 
