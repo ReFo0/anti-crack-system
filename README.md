@@ -5,11 +5,13 @@
 
 I think that this system that I have coded can be improved further :)
 
-* Added antiattach
+* added antiattach
 
-* Added self-remapping code
+* added self-remapping code
 
-* Added a project that reads node server side IP address and computer name
+* added a project that reads node server side IP address and computer name
+
+* Added integrity check 
 
 * [Node Server](https://github.com/ReFo0/node-ip-country-server)
 
