@@ -11,7 +11,7 @@ I think that this system that I have coded can be improved further :)
 
 * added a project that reads node server side IP address and computer name
 
-* Added integrity check 
+* added integrity check 
 
 * [Node Server](https://github.com/ReFo0/node-ip-country-server)
 
